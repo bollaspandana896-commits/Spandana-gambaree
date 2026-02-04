@@ -1,38 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Amazon Picks</title>
-  <meta name="description" content="Product recommendations with affiliate links">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spandana | Product Recommendations</title>
+  <meta name="description" content="Curated product recommendations, study essentials, and useful tools for students and everyday life." />
   <style>
-    body{font-family:Arial;background:#f4f4f4;margin:0}
-    header{background:#232f3e;color:white;padding:20px;text-align:center}
-    .box{background:white;margin:20px;padding:15px;border-radius:8px}
-    a{background:#ff9900;padding:10px 15px;color:black;text-decoration:none;border-radius:5px}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4f46e5;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .card {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      background: #eee;
+    }
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>My Product Recommendations</h1>
-  <p>Honest picks I personally suggest</p>
-</header>
+  <header>
+    <h1>Welcome 👋</h1>
+    <p>Helpful product recommendations & study essentials</p>
+  </header>
 
-<div class="box">
-  <h3>Product 1</h3>
-  <p>Useful for students and daily use.</p>
-  <a href="PASTE_AFFILIATE_LINK_HERE">Buy on Amazon</a>
-</div>
+  <section>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I share useful product recommendations, study tools, and everyday essentials to help students and learners make better choices.</p>
+    </div>
 
-<div class="box">
-  <h3>Product 2</h3>
-  <p>Best value for money.</p>
-  <a href="PASTE_AFFILIATE_LINK_HERE">Buy on Amazon</a>
-</div>
+    <div class="card">
+      <h2>What You’ll Find Here</h2>
+      <ul>
+        <li>📚 Study & exam essentials</li>
+        <li>🖥️ Desk & productivity tools</li>
+        <li>✨ Useful daily products</li>
+      </ul>
+    </div>
 
-<div class="box">
-  <p><b>Affiliate Disclosure:</b> As an Amazon Associate, I earn from qualifying purchases.</p>
-</div>
+    <div class="card">
+      <h2>Affiliate Disclosure</h2>
+      <p>Some links on this website are affiliate links. This means I may earn a small commission at no extra cost to you if you purchase through these links.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>For queries or collaborations, reach out via Pinterest.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Spandana | All rights reserved</p>
+  </footer>
 
 </body>
 </html>
-
