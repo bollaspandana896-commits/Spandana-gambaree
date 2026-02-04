@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Amazon Picks</title>
+  <meta name="description" content="Product recommendations with affiliate links">
+  <style>
+    body{font-family:Arial;background:#f4f4f4;margin:0}
+    header{background:#232f3e;color:white;padding:20px;text-align:center}
+    .box{background:white;margin:20px;padding:15px;border-radius:8px}
+    a{background:#ff9900;padding:10px 15px;color:black;text-decoration:none;border-radius:5px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Product Recommendations</h1>
+  <p>Honest picks I personally suggest</p>
+</header>
+
+<div class="box">
+  <h3>Product 1</h3>
+  <p>Useful for students and daily use.</p>
+  <a href="PASTE_AFFILIATE_LINK_HERE">Buy on Amazon</a>
+</div>
+
+<div class="box">
+  <h3>Product 2</h3>
+  <p>Best value for money.</p>
+  <a href="PASTE_AFFILIATE_LINK_HERE">Buy on Amazon</a>
+</div>
+
+<div class="box">
+  <p><b>Affiliate Disclosure:</b> As an Amazon Associate, I earn from qualifying purchases.</p>
+</div>
+
+</body>
+</html>
+
